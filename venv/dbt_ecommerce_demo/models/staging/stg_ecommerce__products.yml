@@ -30,4 +30,12 @@ models:
         tests:
           - not_null
           - accepted_values:
-              values: ['electronics', 'clothing', 'home', 'beauty', 'sports', 'toys', 'automotive', 'other']
+              values:
+                - "Men"
+                - "Women"
+      - name: name
+        description: "Name of product."
+        tests:
+          - not_null
+          - accepted_values:
+                      values: ['Hanes Silk Reflections', 'American Apparel Flat Knit Pattern Sock']

@@ -9,6 +9,7 @@ SELECT
 	id AS product_id,
 
 	-- Other columns
+	name,
 	cost,
 	retail_price,
 	department,
