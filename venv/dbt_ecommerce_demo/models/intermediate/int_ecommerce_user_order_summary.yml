@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: int_ecommerce_user_order_summary
+    description: "Intermediate model summarizing user order data"
+    columns:
+      - name: user_id
+        tests:
+          - not_null
+      - name: total_orders
+      - name: avg_items_per_order
+      - name: first_order_date
+      - name: last_order_date

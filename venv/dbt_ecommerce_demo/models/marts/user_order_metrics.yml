@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: user_order_metrics
+    description: "Marts model providing user order metrics for reporting"
+    columns:
+      - name: user_id
+        description: "Primary key for the user"
+        tests:
+          - not_null
+      - name: total_orders
+        description: "Total number of orders placed by the user"
+        tests:
+          - not_null
+      - name: avg_items_per_order
+        description: "Average number of items per order"
+        tests:
+          - not_null
+      - name: first_order_date
+        description: "The date of the user's first order"
+        tests:
+          - not_null
+      - name: last_order_date
+        description: "The date of the user's most recent order"
+        tests:
+          - not_null
+
+      - name: total_items
+        description: "Total number of items ordered by the user"
+        tests:
+          - not_null
+
+      - name: order_duration_days
+        description: "The duration between the first and last order in days"
+        tests:
+          - not_null

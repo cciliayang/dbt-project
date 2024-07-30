@@ -1,0 +1,98 @@
+[0m10:24:54.901391 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D408F2190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D43397CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D43397A90>]}
+
+
+============================== 10:24:54.913857 | 167e461c-3919-42ef-a0ef-f2895b62703b ==============================
+[0m10:24:54.913857 [info ] [MainThread]: Running with dbt=1.8.4
+[0m10:24:54.914859 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Cecilia\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init dbt_ecommerce_demo', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:24:54.980128 [debug] [MainThread]: Starter project path: C:\github_projects\dbt-ecommerce\venv\lib\site-packages\dbt\include\starter_project
+[0m10:24:55.042023 [info ] [MainThread]: 
+Your new dbt project "dbt_ecommerce_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:24:55.042023 [info ] [MainThread]: Setting up your profile.
+[0m10:26:30.642592 [info ] [MainThread]: Profile dbt_ecommerce_demo written to C:\Users\Cecilia\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:26:30.646002 [debug] [MainThread]: Command `dbt init` succeeded at 10:26:30.644957 after 95.97 seconds
+[0m10:26:30.646561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D408F2190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D43397A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D42EC5730>]}
+[0m10:26:30.647620 [debug] [MainThread]: Flushing usage events
+[0m10:34:39.310339 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFF4DB6B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFF786B7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFF786B5B0>]}
+
+
+============================== 10:34:39.321957 | fb4d5d40-a94b-4dbc-83c2-afb31d40c9aa ==============================
+[0m10:34:39.321957 [info ] [MainThread]: Running with dbt=1.8.4
+[0m10:34:39.321957 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Cecilia\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init dbt_ecommerce_demo', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:34:39.400465 [debug] [MainThread]: Starter project path: C:\Users\Cecilia\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\include\starter_project
+[0m10:34:39.467693 [info ] [MainThread]: 
+Your new dbt project "dbt_ecommerce_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:34:39.467693 [info ] [MainThread]: Setting up your profile.
+[0m10:35:20.094681 [info ] [MainThread]: Profile dbt_ecommerce_demo written to C:\Users\Cecilia\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:35:20.096685 [debug] [MainThread]: Command `dbt init` succeeded at 10:35:20.096685 after 41.01 seconds
+[0m10:35:20.097724 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFF4DB6B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFF786B550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFF765A070>]}
+[0m10:35:20.097724 [debug] [MainThread]: Flushing usage events
+[0m11:16:33.991756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2CA3C6BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2CCE76820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2CCE76610>]}
+
+
+============================== 11:16:33.994757 | 3ab020e0-dbd5-42f2-9489-926a0c3f4080 ==============================
+[0m11:16:33.994757 [info ] [MainThread]: Running with dbt=1.8.4
+[0m11:16:33.995713 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Cecilia\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init dbt_ecommerce_demo', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:16:34.014128 [debug] [MainThread]: Starter project path: C:\Users\Cecilia\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\include\starter_project
+[0m11:16:34.057621 [info ] [MainThread]: 
+Your new dbt project "dbt_ecommerce_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:16:34.057621 [info ] [MainThread]: Setting up your profile.
+[0m11:17:03.119149 [info ] [MainThread]: Profile dbt_ecommerce_demo written to C:\Users\Cecilia\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:17:03.121139 [debug] [MainThread]: Command `dbt init` succeeded at 11:17:03.121139 after 29.35 seconds
+[0m11:17:03.122137 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2CA3C6BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2CCE765B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2CCC5FEE0>]}
+[0m11:17:03.122137 [debug] [MainThread]: Flushing usage events
+[0m11:46:31.385046 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018693AB2190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018696552D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018696552AF0>]}
+
+
+============================== 11:46:31.390095 | 451fa578-6241-4806-a5aa-0283d3c9c685 ==============================
+[0m11:46:31.390095 [info ] [MainThread]: Running with dbt=1.8.4
+[0m11:46:31.390095 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Cecilia\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt deps', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:46:31.391097 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\github_projects\dbt-ecommerce\venv\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:46:31.393135 [debug] [MainThread]: Command `dbt deps` failed at 11:46:31.393135 after 0.23 seconds
+[0m11:46:31.393135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018693AB2190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018696552EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018696552E80>]}
+[0m11:46:31.393135 [debug] [MainThread]: Flushing usage events

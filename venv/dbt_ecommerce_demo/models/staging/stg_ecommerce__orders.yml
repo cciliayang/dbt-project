@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: stg_ecommerce__orders
+    description: "Table orders data from the e-commerce platform."
+    columns:
+      - name: order_id
+        description: "Primary Key for the order."
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        description: "Foreign key for the user who placed the order."
+        tests:
+          - not_null
+      - name: created_at
+        description: "Timestamp when the order was created."
+        tests:
+          - not_null
+      - name: returned_at
+        description: "Timestamp when the order was returned, if applicable."
+      - name: delivered_at
+        description: "Timestamp when the order was delivered, if applicable."
+      - name: shipped_at
+        description: "Timestamp when the order was shipped, if applicable."
+      - name: status
+        description: "Current status of the order (e.g., shipped, delivered, returned)."
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['pending', 'shipped', 'delivered', 'returned', 'cancelled']
+      - name: num_items_ordered
+        description: "Number of items ordered in this order."
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 1
+              max_value: 100
