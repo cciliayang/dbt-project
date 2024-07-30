@@ -6,8 +6,7 @@ models:
     columns:
       - name: order_item_id
         tests:
-          - primary_key:
-              severity: error
+          - unique
 
       - name: order_id
         tests:

@@ -1,0 +1,26 @@
+# Creating how to add new data into a CSV file
+
+version:
+
+seeds:
+  - name: seed_distribution_centers_new
+    description: "Example of using a CSV file to load data into BigQuery"
+    tests:
+      - dbt_expectations.expect_table_row_count_to_equal:
+          value: 2
+
+    columns:
+      - name: id
+        tests:
+          - not_unique
+          - unique
+      - name: name
+        description: "Distribution Center name"
+      - name: lattitude
+      - name: longitude
+    config:
+      column_types:
+        id: INTEGER
+        name: STRING
+        lattitude: FLOAT
+        longitude: FLOAT
