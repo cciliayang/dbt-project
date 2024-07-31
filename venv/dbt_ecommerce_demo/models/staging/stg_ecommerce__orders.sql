@@ -1,3 +1,5 @@
+-- models/staging/stg_ecommerce__orders.sql
+
 WITH source AS (
 	SELECT *
 
@@ -18,4 +20,5 @@ SELECT
 	-- Other columns
 	status,
 	num_of_item AS num_items_ordered
+
 FROM source

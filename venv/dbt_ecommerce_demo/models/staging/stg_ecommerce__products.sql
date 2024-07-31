@@ -1,3 +1,5 @@
+-- models/staging/stg_ecommerce__products.sql
+
 WITH source AS (
 	SELECT *
 

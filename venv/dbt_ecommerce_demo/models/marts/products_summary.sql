@@ -1,21 +1,23 @@
-with product_analysis as(
-	select
+-- models/marts/products_summary.sql
+
+WITH product_analysis AS(
+	SELECT
 		product_id,
 		category,
 		department,
 		product_profit
 
-	from {{ref('int_products_analysis')}}
+	FROM {{ref('int_products_analysis')}}
 )
-
-select
+-- aggregation function to perform different calculations
+SELECT
 	department,
 	category,
-	avg(product_profit) as avg_profit,
-	sum(product_profit) as total_profit,
-	count(product_id) as num_of_products
+	avg(product_profit) AS avg_profit,
+	sum(product_profit) AS total_profit,
+	count(product_id) AS num_of_products
 
-from
+FROM
 	product_analysis
-group by
+GROUP BY
 	department, category

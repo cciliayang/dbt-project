@@ -1,5 +1,7 @@
-with products as(
-	select
+-- models/intermediate/int_products_analysis.sql
+
+WITH products AS(
+	SELECT
 		product_id,
 		name,
 		category,
@@ -7,10 +9,10 @@ with products as(
 		cost,
 		department
 
-	from {{ref('stg_ecommerce__products')}}
+	FROM {{ref('stg_ecommerce__products')}}
 )
 
-select
+SELECT
 	product_id,
 	name,
 	category,
@@ -20,7 +22,7 @@ select
 
 	-- aggregation function
 	-- calculating product profit
-	retail_price - cost as product_profit
+	retail_price - cost AS product_profit
 
-from
+FROM
 	products
